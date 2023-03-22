@@ -1,4 +1,6 @@
 ![maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)
+![license](https://img.shields.io/github/license/cccb/cccb-schild?style=for-the-badge)
+[![WLED GUI](https://img.shields.io/badge/-WLED%20GUI-blue?style=for-the-badge)](http://schild.club.berlin.ccc.de)
 
 # CCCB street sign
 
