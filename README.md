@@ -12,9 +12,11 @@ This is the documentation for the CCCB street sign internals. Here you can figur
 
 The Microcontroller used is a [Olimex ESP32-POE-ISO-EA-IND](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware) which supports Ethernet and POE. This simplified the power management and connectivity.
 
-Instead of a normal level shifter, a [Diodes 74AHCT1G126](https://www.diodes.com/assets/Datasheets/74AHCT1G126.pdf) is used.
+Instead of a normal level shifter, a [Diodes 74AHCT1G126](https://www.diodes.com/assets/Datasheets/74AHCT1G126.pdf) is used. Don't ask me why this works.
 
 For the LEDs, WS2815 was choosen. They operate with 12V power so the strips can be as long as needed without complicated power feeds. The [LEDs](https://www.aliexpress.com/item/32961181562.html) and [power supply](https://www.aliexpress.com/item/4001260747482.html) are from [BTF Lightning](https://btf-lighting.aliexpress.com/).
+
+Both sites shopuld display the same "content", so they are connected to a single GPIO on the micro controller. This should mirror the output to both sites. All electronic components have a layer of [Kontakt Chemie PLASTIK 70](http://www.kontaktchemie.com/koc/KOCproductdetail.csp?division=&product=PLASTIK%2070&ilang=en&plang=en) on them to be weather proof. The diffusing material is 3mm thick acrylic glas. The CCCB logo is produced by foil on top of the acrylic glas.
 
 # Firmware
 
