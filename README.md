@@ -1,8 +1,10 @@
 # CCCB street sign
 
+This is the documentation for the CCCB street sign internals. Here you can figure out how the electronics work, if for example the magic smoke escaped and you need to fix it. It also describes how the firmware works and has a backup of a working state.
+
 ## Electronics
 
-[![](https://github.com/cccb/cccb-schild/raw/main/electronics.drawio.svg)](https://app.diagrams.net/?mode=github#Hcccb%2Fcccb-schild%2Fmain%2Felectronics.drawio.svg)
+[![connection diagram for the electronics](https://github.com/cccb/cccb-schild/raw/main/electronics.drawio.svg)](https://app.diagrams.net/?mode=github#Hcccb%2Fcccb-schild%2Fmain%2Felectronics.drawio.svg)
 
 The Microcontroller used is a [Olimex ESP32-POE-EA-IND](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) which supports Ethernet connectivity and POE. This simplified the power management and connectivity.
 
