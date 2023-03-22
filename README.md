@@ -49,7 +49,7 @@ esptool.py write_flash 0x10000 WLED_0.13.3_ESP32_Ethernet.bin
 When this is done, the ESP32 should open a wifi called `WLED-AP`. The default password is `wled1234`. Connect to it, configure Ethernet and disable wifi. The ESP32 should receive it's designated IP address as long as the MAC address doesn't change. If it does change, tell the DHCP admins the new MAC address so they can update the static DHCP entry.
 
 
-## Configuration
+# Configuration
 
 To be continued...
 
