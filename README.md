@@ -2,7 +2,7 @@
 
 This is the documentation for the CCCB street sign internals. Here you can figure out how the electronics work, if for example the magic smoke escaped and you need to fix it. It also describes how the firmware works and has a backup of a working state.
 
-## Electronics
+# Electronics
 
 [![connection diagram for the electronics](https://github.com/cccb/cccb-schild/raw/main/electronics.drawio.svg)](https://app.diagrams.net/?mode=github#Hcccb%2Fcccb-schild%2Fmain%2Felectronics.drawio.svg)
 
@@ -12,17 +12,17 @@ Instead of a normal level shifter, a [Diodes 74AHCT1G126](https://www.diodes.com
 
 For the LEDs, WS2815 was choosen. They operate with 12V power so the strips can be as long as needed without complicated power feeds. The [LEDs](https://www.aliexpress.com/item/32961181562.html) and [power supply](https://www.aliexpress.com/item/4001260747482.html) are from [BTF Lightning](https://btf-lighting.aliexpress.com/).
 
-## Firmware
+# Firmware
 
 The firmware used is [WLED](https://kno.wled.ge/). 
 
 These instruction are proably outdated, so please check with the official guide [here](https://kno.wled.ge/basics/install-binary/).
 
-### Flash via web
+## Flash via web
 
 Go to `https://install.wled.me/` and choose the latest version. Also check `My board has Ethernet`. Then follow the procedure.
 
-### Flash via terminal
+## Flash via terminal
 
 If you don't trust WebUSB (and you shouldn't), get the latest firmware release from [Github](https://github.com/Aircoookie/WLED/releases). The file you need is called `WLED_0.13.3_ESP32_Ethernet.bin` (with the version being the newest). Also download the newest bootloader file. At the time of writing this is version 4. You can find it [here](https://github.com/Aircoookie/WLED/releases/download/v0.13.1/esp32_bootloader_v4.bin).
 
