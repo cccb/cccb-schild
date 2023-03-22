@@ -1,3 +1,5 @@
+![maintenance](https://img.shields.io/maintenance/yes/2023?style=for-the-badge)
+
 # CCCB street sign
 
 This is the documentation for the CCCB street sign internals. Here you can figure out how the electronics work, if for example the magic smoke escaped and you need to fix it. It also describes how the firmware works and has a backup of a working state.
