@@ -40,7 +40,7 @@ esptool.py write_flash 0x0 esp32_bootloader_v4.bin
 esptool.py write_flash 0x10000 WLED_0.13.3_ESP32_Ethernet.bin
 ```
 
-When this is done the ESP32 should open a wifi called `WLED-AP`. The password is `wled1234`. Connect to it and configure Ethernet and disable wifi. The ESP32 should receive it's designated IP address as long as the MAC address doesn't change. If it does tell the DHCP admin the new MAC address so they can update the entry in DHCP it.
+When this is done, the ESP32 should open a wifi called `WLED-AP`. The default password is `wled1234`. Connect to it, configure Ethernet and disable wifi. The ESP32 should receive it's designated IP address as long as the MAC address doesn't change. If it does change, tell the DHCP admins the new MAC address so they can update the static DHCP entry.
 
 
 To be continued...
