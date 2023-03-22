@@ -10,7 +10,7 @@ This is the documentation for the CCCB street sign internals. Here you can figur
 
 [![connection diagram for the electronics](https://github.com/cccb/cccb-schild/raw/main/electronics.drawio.svg)](https://app.diagrams.net/?mode=github#Hcccb%2Fcccb-schild%2Fmain%2Felectronics.drawio.svg)
 
-The Microcontroller used is a [Olimex ESP32-POE-EA-IND](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE/open-source-hardware) which supports Ethernet connectivity and POE. This simplified the power management and connectivity.
+The Microcontroller used is a [Olimex ESP32-POE-ISO-EA-IND](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware) which supports Ethernet connectivity and POE. This simplified the power management and connectivity.
 
 Instead of a normal level shifter, a [Diodes 74AHCT1G126](https://www.diodes.com/assets/Datasheets/74AHCT1G126.pdf) is used.
 
