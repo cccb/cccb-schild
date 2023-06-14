@@ -16,7 +16,7 @@ Instead of a normal level shifter, a [Diodes 74AHCT1G126](https://www.diodes.com
 
 For the LEDs, WS2815 was choosen. They operate with 12V power so the strips can be as long as needed without complicated power feeds. The [LEDs](https://www.aliexpress.com/item/32961181562.html) and [power supply](https://www.aliexpress.com/item/4001260747482.html) are from [BTF Lightning](https://btf-lighting.aliexpress.com/).
 
-Both sites should display the same "content", so they are connected to a single GPIO on the micro controller. This should mirror the output to both sites. All electronic components have a layer of [Kontakt Chemie PLASTIK 70](http://www.kontaktchemie.com/koc/KOCproductdetail.csp?division=&product=PLASTIK%2070&ilang=en&plang=en) on them to be weather proof. The diffusing material is 3mm thick acrylic glas. The CCCB logo is produced by foil on top of the acrylic glas.
+Both sites should display the same content, as they are connected to the same GPIO pin on the micro controller. This should mirror the output to both sites. All electronic components have a layer of [Kontakt Chemie PLASTIK 70](http://www.kontaktchemie.com/koc/KOCproductdetail.csp?division=&product=PLASTIK%2070&ilang=en&plang=en) on them to be weather proof. The diffusing material is 3mm thick acrylic glas. The CCCB logo is produced by a foil on top of the acrylic glas.
 
 # Firmware
 
