@@ -53,6 +53,8 @@ When this is done, the ESP32 should open a wifi called `WLED-AP`. The default pa
 
 To be continued...
 
+_Remeber to strip passwords if you update the config backup!_
+
 ---
 
 Made with ❤️ and ✨ by [XenGi](https://github.com/xengi).
